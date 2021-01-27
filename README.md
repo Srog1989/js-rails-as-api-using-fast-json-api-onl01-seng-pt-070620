@@ -193,7 +193,7 @@ end
 ```rb
 class SightingSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :created_at
+  attributes :latitude, :longitude
 end
 ```
 
